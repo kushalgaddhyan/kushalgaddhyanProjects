@@ -25,7 +25,9 @@ Installation Instructions
 8. Now clone the project from github either from gitbash or from eclipse
 9. Once the code is reflecting in your eclipse, right click on the project and click on Run As-->Maven Build
 10. Set Maven goal as clean install and run
-11. Once the build is successful, please open the TestRunner.java under src/main/java-->TestRunner and right click inside anywhere
+11. Once the build is successful, please open the TestRunner.java under src/main/java-->TestRunner and 
+change the path/location of the feature file under features = "your system path ". Just click on src/main/java and under it
+right click on Features Package--->Properties.Copy the location and paste it in the TestRunner.java file where Features = ""
 12. Right Click  --->Click on Run As-->Junit Test
 13. Once done, the chrome browser will open and the automated test will start executing
 14. Once the test is completed, refresh your project
